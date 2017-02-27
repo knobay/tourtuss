@@ -104,7 +104,7 @@
 
      <tr>
     <td class="booking-table">Total</td>
-    <td class="booking-table">8.00 USD</td>
+    <td class="booking-table">8000 pesos (€12.55)</td>
     <td class="booking-table"></td>
   </tr>
 
@@ -190,7 +190,7 @@
   </tr>
   <tr>
     <td class="tg-dx8v">Price</td>
-    <td class="tg-dx8v">$8.00 per person</td>
+    <td class="tg-dx8v">8000 pesos (€12.55) per person</td>
   </tr>
 
 </table></div>

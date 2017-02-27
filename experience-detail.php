@@ -81,7 +81,7 @@ Lunchtime walking tour of hidden colonial buildings near the park with friendly 
   </tr>
   <tr>
     <td class="tg-dx8v">Price</td>
-    <td class="tg-dx8v">$8.00 per person</td>
+    <td class="tg-dx8v">8000 pesos (€12.55) per person</td>
   </tr>
   <tr>
     <td class="tg-dx8v">Places</td>

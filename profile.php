@@ -7,7 +7,7 @@
 
     <div class="row">
             <div class="col-12 col-d-12">
-                <span class="flag-icon flag-icon-ch destination-flag"></span><span class="destination-name"><a href="#">Velentina</a></span>        
+                <span class="flag-icon flag-icon-it destination-flag"></span><span class="destination-name"><a href="#">Velentina</a></span>        
             </div>
 
     </div>
