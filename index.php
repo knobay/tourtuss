@@ -10,9 +10,16 @@
     <!-- Flags with css -->
     <link href="./css/flag-icon.css" rel="stylesheet">
     <!-- jquery mobile -->
+
+  <link rel="stylesheet" href="css/themes/tourtess-theme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+
     <!-- jquery mobile datepicker hack -->
 	<link rel="stylesheet" href="/datepicker/jquery.mobile.datepicker.css" />
 	<link rel="stylesheet" href="/datepicker/jquery.mobile.datepicker.theme.css" />
@@ -27,14 +34,14 @@
     <link href="css/tourtuss.css" rel="stylesheet">
 </head>
 <body>
-<?php include ('page-destination.php'); ?>
-<?php include ('page-experience-listing.php'); ?>
-<?php include ('page-experience-detail.php'); ?>
-<?php include ('page-bookings.php'); ?>
-<?php include ('page-book.php'); ?>
-<?php include ('page-maybes.php'); ?>
-<?php include ('page-notifications.php'); ?>
-<?php include ('page-profile.php'); ?>
-<?php include ('page-confirm.php'); ?>
+<?php include ('destination.php'); ?>
+<?php include ('listing.php'); ?>
+<?php include ('experience.php'); ?>
+<?php include ('bookings.php'); ?>
+<?php include ('book.php'); ?>
+<?php include ('maybes.php'); ?>
+<?php include ('notifications.php'); ?>
+<?php include ('profile.php'); ?>
+<?php include ('confirmation.php'); ?>
 </body>
 </html>
