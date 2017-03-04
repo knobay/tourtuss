@@ -2,7 +2,7 @@
         <header data-role="header" data-position="fixed" data-theme="a">
 
             <h1>
-              <i class="fa fa-tick"></i> Confirmation screen        
+              <i class="fa fa-tick"></i> Confirmation        
             </h1>
         </header>
 

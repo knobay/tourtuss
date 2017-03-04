@@ -30,6 +30,12 @@
 			$( ".date-input-css" ).datepicker();
 		})
 	</script>
+
+
+    <!-- autocomplete -->
+    <link rel="stylesheet" href="./autocomplete/styles.css" />
+    <script src="./autocomplete/jqm.autoComplete-1.5.2-min.js"></script>
+	<script src="./automcomplete/code.js"></script>
     <!-- My custom stuff -->
     <link href="css/tourtuss.css" rel="stylesheet">
 </head>

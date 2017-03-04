@@ -46,3 +46,20 @@ a{
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:2px 2px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
 .tg .tg-dx8v{font-size:12px;vertical-align:top;text-align:left}
 @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
+
+.fa-star{
+
+color:goldenrod;
+}
+
+.date{
+   text-align: center; 
+}
+
+.img-circle, .flag-icon {
+        border-radius: 50%;
+}
+
+img {
+        border-radius: 50%;
+}

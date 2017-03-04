@@ -10,7 +10,7 @@
           
 
 <p>
-  <img src="images/lizzie.png">
+  <img src="images/lizzie.png" class="img-circle">
 </p>
 
 
