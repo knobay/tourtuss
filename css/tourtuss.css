@@ -52,14 +52,44 @@ a{
 color:goldenrod;
 }
 
-.date{
+header .date{
    text-align: center; 
+   font-size:x-small;
 }
 
-.img-circle, .flag-icon {
+.img-circle {
         border-radius: 50%;
 }
 
-img {
+
+
+.flag-icon  {
         border-radius: 50%;
+}
+
+article{
+    text-align: center; 
+}
+
+.fa-tourtuss {
+	content: url(/images/tourtuss.svg);
+  width: 50px; height: 32px;
+}
+
+.languagesGrid{
+    width:320px;
+}
+
+
+.ui-block-a{
+    height:25px;
+}
+
+.languageColumn{
+    text-align: right;
+    padding-right:10px;
+}
+
+.languageColumn.score{
+    text-align: left;
 }

@@ -1,3 +1,7 @@
+
+  
+  
+  
      <section data-role="page" id="experience" data-theme="a">
 
         <header data-role="header" data-position="fixed" data-theme="a">
@@ -16,7 +20,7 @@
 
 
 <p>
-  <img src="./images/santiago.jpg">
+  <img class="img-circle" src="./images/santiago.jpg">
 </p>
 <div class="tg-wrap"><table class="tg" style="undefined;table-layout: fixed; width: 1260px">
 <colgroup>
@@ -69,7 +73,11 @@
 
 
 <a href="#book" class="ui-btn"><i class="fa fa-shopping-basket"></i>+</a>
-<a href="#maybes" class="ui-btn"><i class="fa fa-lightbulb-o"></i>+</a>
+<a href="#popupBasic" data-rel="popup" class="ui-btn" data-transition="pop" onClick="addMaybe()"><i class="fa fa-lightbulb-o"></i>+</a>
+
+<div data-role="popup" id="popupBasic">
+<p>Added to your <i class="fa fa-lightbulb-o"></i> maybe list</p>
+</div>
 
 
 
@@ -86,7 +94,7 @@
                 <p>Speaks Spanish, English & Italian
                 <br><br>
                 <i class="fa fa-smile-o fa-2x"></i><span class="smile-count">3452</span><i class="fa fa-meh-o fa-2x"></i><span class="smile-count">131</span><i class="fa fa-frown-o fa-2x"></i><span class="smile-count">131</span>
-                <i class="fa fa-camera fa-2x"></i><span class="smile-count">110</span>&nbsp;<i class="fa fa-university fa-2x"></i><span class="smile-count">50</span>
+                <br><i class="fa fa-camera fa-2x"></i><span class="smile-count">110</span>&nbsp;<i class="fa fa-university fa-2x"></i><span class="smile-count">50</span>
                 </p>
 
 
@@ -104,7 +112,9 @@
 
     Speaks French, English & Russian</small>
                 <br><br>
-                <i class="fa fa-smile-o fa-1x"></i><span class="smile-count">52</span>&nbsp;<i class="fa fa-meh-o fa-1x"></i><span class="smile-count">11</span></i>&nbsp;<i class="fa fa-beer fa-1x"></i><span class="smile-count">6</span>&nbsp;&nbsp;<i class="fa fa-university fa-1x"></i><span class="smile-count">12</span>&nbsp;<span class="flag-icon flag-icon-gb"></span>&nbsp;<span class="flag-icon flag-icon-cl"></span>&nbsp;<span class="flag-icon flag-icon-gr"></span>&nbsp;<span class="flag-icon flag-icon-es"></span>&nbsp;<span class="flag-icon flag-icon-br"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-no"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-de"></span>&nbsp;
+                <i class="fa fa-smile-o fa-1x"></i><span class="smile-count">52</span>&nbsp;<i class="fa fa-meh-o fa-1x"></i><span class="smile-count">11</span></i>&nbsp;<i class="fa fa-beer fa-1x"></i><span class="smile-count">6</span>&nbsp;&nbsp;<i class="fa fa-university fa-1x"></i><span class="smile-count">12</span>
+                <br>
+                <span class="flag-icon flag-icon-squared flag-icon-gb"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-cl"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-gr"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-es"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-br"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-au"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-no"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-de"></span>&nbsp;
 
 </p>
 
@@ -119,7 +129,8 @@
 
     Speaks French, English & Russian</small>
                 <br><br>
-                <i class="fa fa-smile-o fa-1x"></i><span class="smile-count">52</span>&nbsp;<i class="fa fa-meh-o fa-1x"></i><span class="smile-count">11</span></i>&nbsp;<i class="fa fa-beer fa-1x"></i><span class="smile-count">6</span>&nbsp;&nbsp;<i class="fa fa-university fa-1x"></i><span class="smile-count">12</span>&nbsp;<span class="flag-icon flag-icon-gb"></span>&nbsp;<span class="flag-icon flag-icon-cl"></span>&nbsp;<span class="flag-icon flag-icon-gr"></span>&nbsp;<span class="flag-icon flag-icon-es"></span>&nbsp;<span class="flag-icon flag-icon-br"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-no"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-de"></span>&nbsp;
+                <i class="fa fa-smile-o fa-1x"></i><span class="smile-count">52</span>&nbsp;<i class="fa fa-meh-o fa-1x"></i><span class="smile-count">11</span></i>&nbsp;<i class="fa fa-beer fa-1x"></i><span class="smile-count">6</span>&nbsp;&nbsp;<i class="fa fa-university fa-1x"></i><span class="smile-count">12</span>
+                <br><span class="flag-icon flag-icon-squared flag-icon-gb"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-cl"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-gr"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-es"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-br"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-au"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-no"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-de"></span>&nbsp;
 </p>
 
 <hr />
@@ -137,7 +148,8 @@
 
     Speaks English</small>
                 <br><br>
-                <i class="fa fa-smile-o fa-1x"></i><span class="smile-count">221</span>&nbsp;<i class="fa fa-meh-o fa-1x"></i><span class="smile-count">11</span></i>&nbsp;<i class="fa fa-beer fa-1x"></i><span class="smile-count">150</span>&nbsp;&nbsp;<i class="fa fa-university fa-1x"></i><span class="smile-count">12</span>&nbsp;<span class="flag-icon flag-icon-gb"></span>&nbsp;<span class="flag-icon flag-icon-cl"></span>&nbsp;<span class="flag-icon flag-icon-gr"></span>&nbsp;<span class="flag-icon flag-icon-es"></span>&nbsp;<span class="flag-icon flag-icon-br"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-no"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-de"></span>&nbsp;
+                <i class="fa fa-smile-o fa-1x"></i><span class="smile-count">221</span>&nbsp;<i class="fa fa-meh-o fa-1x"></i><span class="smile-count">11</span></i>&nbsp;<i class="fa fa-beer fa-1x"></i><span class="smile-count">150</span>&nbsp;&nbsp;<i class="fa fa-university fa-1x"></i><span class="smile-count">12</span>
+                <br><span class="flag-icon flag-icon-squared flag-icon-gb"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-cl"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-gr"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-es"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-br"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-au"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-no"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-de"></span>&nbsp;
 </p>
 
 <p>
@@ -151,11 +163,12 @@
 
     Speaks Italian, French, English & German</small>
                 <br><br>
-                <i class="fa fa-smile-o fa-1x"></i><span class="smile-count">52</span>&nbsp;<i class="fa fa-meh-o fa-1x"></i><span class="smile-count">11</span></i>&nbsp;<i class="fa fa-beer fa-1x"></i><span class="smile-count">6</span>&nbsp;&nbsp;<i class="fa fa-university fa-1x"></i><span class="smile-count">12</span>&nbsp;<span class="flag-icon flag-icon-gb"></span>&nbsp;<span class="flag-icon flag-icon-cl"></span>&nbsp;<span class="flag-icon flag-icon-gr"></span>&nbsp;<span class="flag-icon flag-icon-es"></span>&nbsp;<span class="flag-icon flag-icon-br"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-no"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-de"></span>&nbsp;
+                <i class="fa fa-smile-o fa-1x"></i><span class="smile-count">52</span>&nbsp;<i class="fa fa-meh-o fa-1x"></i><span class="smile-count">11</span></i>&nbsp;<i class="fa fa-beer fa-1x"></i><span class="smile-count">6</span>&nbsp;&nbsp;<i class="fa fa-university fa-1x"></i><span class="smile-count">12</span>
+                <br><span class="flag-icon flag-icon-squared flag-icon-gb"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-cl"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-gr"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-es"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-br"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-au"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-no"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared  flag-icon-de"></span>&nbsp;
 </p>
 
         </article>
- 
+
         <?php include ('footer.php'); ?>
 
         </section>

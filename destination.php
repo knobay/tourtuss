@@ -2,7 +2,7 @@
         <header data-role="header" data-position="fixed" data-theme="a">
             
             <h1>
-                <span class="flag-icon flag-icon-cl"></span> <a href="#popupcitysearch" data-rel="popup" data-position-to="window"  data-transition="pop">Santiago</a><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+               <span class="flag-icon flag-icon-squared flag-icon-cl"></span> <a href="#popupcitysearch" data-rel="popup" data-position-to="window"  data-transition="pop">Santiago</a><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
             </h1>
 
         <div data-role="popup" id="popupcitysearch" data-theme="a" class="ui-corner-all">
@@ -19,8 +19,6 @@
         </header>
 
         <article role="main" class="ui-content"  data-theme="a">
-
-
 
         <div data-role="popup" id="popupDateChange" data-theme="a" class="ui-corner-all">
             <input type="text" class="date-input-inline" data-inline="true" data-role="date">

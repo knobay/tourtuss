@@ -2,12 +2,13 @@
         <header data-role="header" data-position="fixed" data-theme="a">
            
             
-            <h1><span class="flag-icon flag-icon-it"></span> Velentina</h1>
+            <h1><span class="flag-icon flag-icon-squared flag-icon-it"></span> Velentina</h1>
         </header>
 
        <article role="main" class="ui-content"  data-theme="a">
 
-          
+    
+   
 
 <p>
   <img src="images/lizzie.png" class="img-circle">
@@ -33,18 +34,52 @@
 </p>
 
 <p>
-<span class="flag-icon flag-icon-es"></span><span class="smile-count">17</span>
-<span class="flag-icon flag-icon-br"></span><span class="smile-count">12</span>
-<span class="flag-icon flag-icon-au"></span><span class="smile-count">3</span>
-<span class="flag-icon flag-icon-no"></span><span class="smile-count">2</span>
-<span class="flag-icon flag-icon-cz"></span><span class="smile-count">2</span>
-<span class="flag-icon flag-icon-dk"></span><span class="smile-count">1</span>
-<span class="flag-icon flag-icon-ie"></span><span class="smile-count">1</span>
+<span class="flag-icon flag-icon-squared flag-icon-es"></span><span class="smile-count">17</span>
+<span class="flag-icon flag-icon-squared flag-icon-br"></span><span class="smile-count">12</span>
+<span class="flag-icon flag-icon-squared flag-icon-au"></span><span class="smile-count">3</span>
+<span class="flag-icon flag-icon-squared flag-icon-no"></span><span class="smile-count">2</span>
+<span class="flag-icon flag-icon-squared flag-icon-cz"></span><span class="smile-count">2</span>
+<span class="flag-icon flag-icon-squared flag-icon-dk"></span><span class="smile-count">1</span>
+<span class="flag-icon flag-icon-squared flag-icon-ie "></span><span class="smile-count">1</span>
 </p>
-<p>
-                <img src="images/languages.png">       
 
+<p>
+<div class="languagesGrid">   
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <div class="languageColumn">Italian</div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="languageColumn score"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></div>
+                </div>
+                <div class="ui-block-a">
+                    <div class="languageColumn">German</div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="languageColumn score"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></div>
+                </div>
+                <div class="ui-block-a">
+                    <div class="languageColumn">French</div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="languageColumn score"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle-o"></i></div>
+                </div>
+                <div class="ui-block-a">
+                    <div class="languageColumn">Spanish</div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="languageColumn score"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle-o"></i></div>
+                </div>
+                <div class="ui-block-a">
+                    <div class="languageColumn">English</div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="languageColumn score"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle-o"></i><i class="fa fa-circle-o"></i></div>
+                </div>
+            </div>
+</div>
 </p>
+    
 <cite>
                     I'm a music lover and a freestyle skiing freak. Vale Vale Vale!
 </cite>

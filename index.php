@@ -1,22 +1,23 @@
 <!doctype html>
 
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Tourtuss - do something interesting</title>
     <meta name="viewport" content="initial-scale=1, user-scalable=no, width=device-width">
     <!-- Font awesome -->
-    <script src="https://use.fontawesome.com/b7a4aa1c5d.js"></script>
+ 
+  <link href="./font-awesome/css/font-awesome.css" rel="stylesheet">
+
     <!-- Flags with css -->
     <link href="./css/flag-icon.css" rel="stylesheet">
+
     <!-- jquery mobile -->
 
-  <link rel="stylesheet" href="css/themes/tourtess-theme.css" />
-  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
 
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="./jqm/jquery.mobile-1.4.5.css" />
+    <script src="./jquery/jquery-1.11.1.min.js"></script>
+    <script src="./jqm/jquery.mobile-1.4.5.min.js"></script>
 
 
 

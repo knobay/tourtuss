@@ -31,11 +31,15 @@
   </tr>
 
   <tr>
+    <div id="kimBooking">
     <td class="booking-table">Person 1 </td>
     <td class="booking-table">Kim Nobay</td>
     <td class="booking-table" style="text-align:right"><i class="fa fa-minus fa-1x fa-border pallette-gray"></td>
+    </div>
   </tr>
  
+
+
    <tr>
     <td class="booking-table" colspan="3"><hr /></td>
   </tr>
