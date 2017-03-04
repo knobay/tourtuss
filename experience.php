@@ -98,15 +98,13 @@
                 </p>
 
 
-  <hr />
-
   <h2>Going!</h2>
                 
 
 <p>
 <figure>
     <img src="images/rudi.png" class="img-circle">
-    <figcaption>Ruinuvo</figcaption>
+    <figcaption>Ruinuvo + 1</figcaption>
 </figure>
 
 
@@ -132,8 +130,6 @@
                 <i class="fa fa-smile-o fa-1x"></i><span class="smile-count">52</span>&nbsp;<i class="fa fa-meh-o fa-1x"></i><span class="smile-count">11</span></i>&nbsp;<i class="fa fa-beer fa-1x"></i><span class="smile-count">6</span>&nbsp;&nbsp;<i class="fa fa-university fa-1x"></i><span class="smile-count">12</span>
                 <br><span class="flag-icon flag-icon-squared flag-icon-gb"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-cl"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-gr"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-es"></span>&nbsp;<span class="flag-icon flag-icon-squared flag-icon-br"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-au"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-no"></span>&nbsp;&nbsp;<span class="flag-icon flag-icon-squared flag-icon-de"></span>&nbsp;
 </p>
-
-<hr />
 
  <h2>Maybe...</h2>
 

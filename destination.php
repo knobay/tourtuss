@@ -26,72 +26,78 @@
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-camera"></i>(1)</a>
-                <a href="#listing"><i class="fa fa-cutlery"></i>(3)</a>
-                <a href="#listing"><i class="fa fa-beer"></i>(1)</a>
-                <a href="#listing"><i class="fa fa-bank"></i>(3)</a>
-                <a href="#listing"><i class="fa fa-bicycle"></i>(1)</a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i>(3)</a>
+                <a href="#listing"><i class="fa fa-camera"></i><span class="typeCount">1</span></a>
+                <a href="#listing"><i class="fa fa-cutlery"></i><span class="typeCount">3</span></a>
+                <a href="#listing"><i class="fa fa-beer"></i><span class="typeCount">1</span></a>
+                <a href="#listing"><i class="fa fa-bank"></i><span class="typeCount">3</span></a>
+                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
             <hr></hr>
         </div>
 
-        <span class="hour">13:00</span>
+        <div class="hour"><?php $today=date("G");echo $today;?>:00</div>
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-beer"></i>(1)</a>
-                <a href="#listing"><i class="fa fa-bank"></i>(3)</a>
-                <a href="#listing"><i class="fa fa-bicycle"></i>(1)</a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i>(3)</a>
+                <a href="#listing"><i class="fa fa-beer"></i><span class="typeCount">1</span></a>
+                <a href="#listing"><i class="fa fa-bank"></i><span class="typeCount">3</span></a>
+                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
         <hr></hr>
-        <span class="hour">14:00</span>
+       <div class="hour"><?php $today=date("G", strtotime('+1 hours'));echo $today;?>:00</div>
+
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-bicycle"></i>(1)</a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i>(3)</a>
+                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
         <hr></hr>
-        <span class="hour">16:00</span>
+
+
+        <div class="hour"><?php $today=date("G", strtotime('+2 hours'));echo $today;?>:00</div>
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-cutlery"></i>(3)</a>
-                <a href="#listing"><i class="fa fa-beer"></i>(1)</a>
-                <a href="#listing"><i class="fa fa-bank"></i>(3)</a>
-                <a href="#listing"><i class="fa fa-bicycle"></i>(1)</a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i>(3)</a>
+                <a href="#listing"><i class="fa fa-cutlery"></i><span class="typeCount">3</span></a>
+                <a href="#listing"><i class="fa fa-beer"></i><span class="typeCount">1</span></a>
+                <a href="#listing"><i class="fa fa-bank"></i><span class="typeCount">3</span></a>
+                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
         <hr></hr>
-        <span class="hour">17:00</span>
+       <div class="hour"><?php $today=date("G", strtotime('+3 hours'));echo $today;?>:00</div>
+
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-paint-brush"></i>(3)</a>
+                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
         <hr></hr>
-        <span class="hour">18:00</span>
+       <div class="hour"><?php $today=date("G", strtotime('+4 hours'));echo $today;?>:00</div>
+
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
 
-                <a href="#listing"><i class="fa fa-bicycle"></i>(1)</a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i>(3)</a>
+                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
         <hr></hr>
-        <span class="hour">19:00</span>
+       <div class="hour"><?php $today=date("G", strtotime('+5 hours'));echo $today;?>:00</div>
+
 
         </article>
 

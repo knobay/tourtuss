@@ -85,10 +85,11 @@
 </cite>
     
  <p>
-                <a href="#"><i class="fa fa-snapchat-square  fa-2x"></i></a>
-                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                <a href="#"><i class="fa fa-link fa-2x"></i></a>
+
+                <a href="#"><i class="fa fa-snapchat-square  fa-2x" onClick="alert('would open snapchat profile if provided')"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-2x" onClick="alert('would open twitter profile if provided')"></i></a>
+                <a href="#"><i class="fa fa-facebook fa-2x" onClick="alert('would open facebook profile if provided')"></i></a>
+                <a href="#"><i class="fa fa-link fa-2x" onClick="alert('would open personal weblink if provided')"></i></a>
 </p>
 
 

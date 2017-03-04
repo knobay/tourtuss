@@ -29,7 +29,7 @@
    </metadata>
    <g
        id="layer_Paper"
-       style="fill:#FFFFFF;fill-opacity:1;stroke:#FFFFFF;stroke-opacity:1;fill-rule:nonzero;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1;stroke-miterlimit:10">
+       style="fill:#22264B;fill-opacity:1;stroke:#2226B;stroke-opacity:1;fill-rule:nonzero;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1;stroke-miterlimit:10">
       <g
           id="9E14BB3D">
          <path
@@ -42,13 +42,13 @@ C2.261951160797,16.6472630787 4.917246264797,18.7821849017 6.445736299797,15.939
 C37.4480897218,12.8710783627 34.2295670668,4.791100512655 39.9794638818,0.503421602655 C43.2133804328,-0.383135200345 47.6391090598,-0.592163159345 49.6665656628,4.137712029655 C50.7546188868,5.918112162655 51.0941137538,9.057604865655 49.3932897218,11.0111020517
 C47.7375669558,13.3474842747 44.0487485368,13.7153362557 42.5413769078,11.3042789757 z"/>
          <circle
-             style="fill:none;stroke:#000000"
+             style="fill:none;stroke:#FFFFFF"
              id="7E14BB3D"
              cx="45.160499746"
              cy="5.023770736886"
              r="1.407726961231"/>
          <path
-             style="fill:none;stroke:#000000"
+             style="fill:none;stroke:#FFFFFF"
              id="8E14BB3D"
              d="M6.839115131414,18.2207065295 C16.5521093757,21.0282797858 27.0960978108,18.7507655182 34.7420584267,12.1936369957"/>
       </g>

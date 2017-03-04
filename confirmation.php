@@ -36,7 +36,6 @@
           <form>
         <div style="padding:10px 20px;">
             <h3>Message Lisa</h3>
-<label for="textarea-1"><Message></Message> Lisa</label>
     <textarea name="textarea-1" id="textarea-1"></textarea>
             <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">Send</button>
         </div>

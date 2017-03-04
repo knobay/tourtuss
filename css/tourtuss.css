@@ -1,21 +1,14 @@
-  .x-scroll-outer{
-    white-space: nowrap;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-    margin-top:1.4rem;
-    }
+body{        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+ 
 
-.x-scroll-wrapper {
-  width: 100%;
-  padding: 1rem;
-}
-
-.x-scroll-wrapper .fa { font-size: 2rem;   padding: 0.5rem;}
-
-.hour  { font-size: 0.8rem;}
+.hour  { font-size: 0.6rem; text-align: left;}
 
 footer .fa { font-size: 1.8rem}
+
+footer .fa-shopping-basket{
+
+font-size: 1.6rem;
+}
 	
 .center {
     text-align: center;
@@ -55,6 +48,7 @@ color:goldenrod;
 header .date{
    text-align: center; 
    font-size:x-small;
+   padding-bottom: 0.5em;
 }
 
 .img-circle {
@@ -93,3 +87,32 @@ article{
 .languageColumn.score{
     text-align: left;
 }
+
+/* overriding jqm mobile structure style sheet */
+.ui-header .ui-title,
+.ui-footer .ui-title {
+	font-size: 1.5em;
+	padding: 0.2em 0;
+    	margin: 0 10%;
+}
+
+
+ .x-scroll-outer{
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    margin-top:1.4rem;
+    }
+
+.x-scroll-wrapper {
+  width: 100%;
+  padding: 0rem;
+}
+
+.x-scroll-wrapper .fa { font-size: 2.2rem;  padding-left: 1.3rem; padding-right: 0.25rem;}
+
+
+
+.typeCount {font-size: 0.7rem; font-weight: 600; vertical-align: sub}
+
