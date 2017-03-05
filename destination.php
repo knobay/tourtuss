@@ -1,3 +1,16 @@
+   
+   <!doctype html>
+
+<html lang="en">
+<?php include ('head.php'); ?>
+<body>
+
+
+   
+   
+   
+   
+   
     <section data-role="page" id="destination">
         <header data-role="header" data-position="fixed" data-theme="a">
             
@@ -26,12 +39,12 @@
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-camera"></i><span class="typeCount">1</span></a>
-                <a href="#listing"><i class="fa fa-cutlery"></i><span class="typeCount">3</span></a>
-                <a href="#listing"><i class="fa fa-beer"></i><span class="typeCount">1</span></a>
-                <a href="#listing"><i class="fa fa-bank"></i><span class="typeCount">3</span></a>
-                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-camera"></i><span class="typeCount">1</span></a>
+                <a href="./listing.php"><i class="fa fa-cutlery"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-beer"></i><span class="typeCount">1</span></a>
+                <a href="./listing.php"><i class="fa fa-bank"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
             <hr></hr>
         </div>
@@ -40,10 +53,10 @@
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-beer"></i><span class="typeCount">1</span></a>
-                <a href="#listing"><i class="fa fa-bank"></i><span class="typeCount">3</span></a>
-                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-beer"></i><span class="typeCount">1</span></a>
+                <a href="./listing.php"><i class="fa fa-bank"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
@@ -53,8 +66,8 @@
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
@@ -65,11 +78,11 @@
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-cutlery"></i><span class="typeCount">3</span></a>
-                <a href="#listing"><i class="fa fa-beer"></i><span class="typeCount">1</span></a>
-                <a href="#listing"><i class="fa fa-bank"></i><span class="typeCount">3</span></a>
-                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-cutlery"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-beer"></i><span class="typeCount">1</span></a>
+                <a href="./listing.php"><i class="fa fa-bank"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
@@ -79,7 +92,7 @@
 
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
-                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
@@ -90,8 +103,8 @@
         <div class="x-scroll-outer">
             <div class="x-scroll-wrapper">
 
-                <a href="#listing"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
-                <a href="#listing"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
+                <a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a>
+                <a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a>
             </div>
         </div>
 
@@ -126,3 +139,5 @@
 		});
 	</script>
 
+</body>
+</html>

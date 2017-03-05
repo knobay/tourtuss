@@ -1,3 +1,9 @@
+<!doctype html>
+
+<html lang="en">
+<?php include ('head.php'); ?>
+<body>
+
     <section data-role="page" id="book">
         <header data-role="header" data-position="fixed" data-theme="a">
             
@@ -66,7 +72,7 @@
 </table>
 
 	
-<a href="#confirmation" class="ui-btn">Confirm</a>
+<a href="confirmation.php" class="ui-btn">Confirm</a>
       
 
 
@@ -133,3 +139,7 @@
         <?php include ('footer.php'); ?>
 
     </section>
+
+
+</body>
+</html> 

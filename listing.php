@@ -1,4 +1,9 @@
 
+<!doctype html>
+
+<html lang="en">
+<?php include ('head.php'); ?>
+<body>
 
         <section data-role="page" id="listing" data-theme="a">
 
@@ -15,7 +20,7 @@
 
 
 
-  <h2><a href="#experience"> Colonial history walking tour</a> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>                
+  <h2><a href="experience.php">Colonial history walking tour</a> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>                
           
  
                     <p>Maria Sanchez Tours, Recoleta
@@ -36,7 +41,7 @@
 
 
 
-                <h2><a href="#experience">Chasing lamas</a> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>                
+                <h2><a href="experience.php">Chasing lamas</a> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>                
                 <p>Como se lama tours, Barrio Alto
                 <br>
                 13.2 km | $32.50 | 4-5 hours
@@ -50,3 +55,5 @@
         <?php include ('footer.php'); ?>
 
         </section>
+</body>
+</html>

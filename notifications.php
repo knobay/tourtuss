@@ -1,3 +1,11 @@
+
+<!doctype html>
+
+<html lang="en">
+<?php include ('head.php'); ?>
+<body>
+
+  
     <section data-role="page" id="notifications">
         <header data-role="header" data-position="fixed" data-theme="a">
             
@@ -19,3 +27,7 @@
         <?php include ('footer.php'); ?>
 
     </section>
+
+
+</body>
+</html>  

@@ -1,5 +1,9 @@
+<!doctype html>
 
-  
+<html lang="en">
+<?php include ('head.php'); ?>
+<body>
+
   
   
      <section data-role="page" id="experience" data-theme="a">
@@ -72,7 +76,7 @@
 </div>
 
 
-<a href="#book" class="ui-btn"><i class="fa fa-shopping-basket"></i>+</a>
+<a href="book.php" class="ui-btn"><i class="fa fa-shopping-basket"></i>+</a>
 <a href="#popupBasic" data-rel="popup" class="ui-btn" data-transition="pop" onClick="addMaybe()"><i class="fa fa-lightbulb-o"></i>+</a>
 
 <div data-role="popup" id="popupBasic">
@@ -168,3 +172,8 @@
         <?php include ('footer.php'); ?>
 
         </section>
+
+
+
+</body>
+</html>
