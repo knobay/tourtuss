@@ -30,7 +30,7 @@
 </figure>
 
 <p>Lisa Sanchez Garcia is your guide.</p>
-<a href="#messageGuide" class="ui-btn" data-rel="popup" data-position-to="window"  data-transition="pop"><i class="fa fa-shopping-basket"></i> Message guide</a>
+<a href="#messageGuide" class="ui-btn" data-rel="popup" data-position-to="window"  data-transition="pop"><i class="fa fa-envelope"></i> Message guide</a>
 
   <div data-role="popup" id="messageGuide" data-theme="a" class="ui-corner-all">
           <form>
