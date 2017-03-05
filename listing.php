@@ -23,7 +23,7 @@
   <h2><a href="experience.php">Colonial history walking tour</a> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>                
           
  
-                    <p>Maria Sanchez Tours, Recoleta
+                <p>Maria Sanchez Tours, Recoleta
                 <br>
                 4.6 km | $8.00 | 1 hour
                 </p>

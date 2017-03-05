@@ -4,12 +4,6 @@
 <html lang="en">
 <?php include ('head.php'); ?>
 <body>
-
-
-   
-   
-   
-   
    
     <section data-role="page" id="destination">
         <header data-role="header" data-position="fixed" data-theme="a">
@@ -31,7 +25,7 @@
         </div>
         </header>
 
-        <article role="main" class="ui-content"  data-theme="a">
+        <article role="main" class="ui-content" data-theme="a">
 
         <div data-role="popup" id="popupDateChange" data-theme="a" class="ui-corner-all">
             <input type="text" class="date-input-inline" data-inline="true" data-role="date">
