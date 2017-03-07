@@ -159,18 +159,18 @@ article{
 
 .fa-tourtuss {
 	content: url(/images/tourtuss.svg);
-  width: 45px; height: 29px;
+    width: 45px; height: 29px;
 }
 
 
 .languagesGrid{
-padding: .5em;
+    padding: .5em;
 }
 
 .languageColumn{
     text-align: right;
     padding-right:10px;
-        height:25px;
+    height:25px;
 }
 
 .languageColumn.score{
@@ -188,7 +188,7 @@ padding: .5em;
     border-bottom-width: 0px;
     border-top-style: solid;
     border-top-color: lightgrey;
-    border-top-width: 1px;
+    border-top-width: 0px;
     height:5rem;
     }
 
@@ -242,7 +242,20 @@ padding: .5em;
 
 .x-scroll-wrapper .fa { font-size: 2.5rem;  padding-left: 1.3rem; padding-right: 0.25rem; padding-top:1.3rem}
 
-.hour  { font-size: 0.6rem; text-align: left; color:gray; margin-bottom:0.3rem; margin-left:-1em; position:absolute; z-index:3}
+.hour  {
+    width:100%;
+    padding-left: 0.2rem;
+    padding-top: 0.3rem;
+    font-size: 0.6rem;
+    text-align: left;
+    color:gray;
+    margin-bottom:0.2rem;
+    position:absolute;
+    border-top-style:solid;
+    border-top-width:1px;
+    border-top-color:lightgray;
+    z-index:3
+    }
 
 
 
