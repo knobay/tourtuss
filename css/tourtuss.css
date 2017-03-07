@@ -208,12 +208,16 @@ article{
 
 
 
-.rightFaderDisabled{
-    position:absolute;
-    width:3rem;
-    height:4.7em;
+.rightFader{
+    position:fixed;
+    width:2rem;
+    height:100%;
     z-index:1;
     right: 0;
+
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 1px;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
     background: -moz-linear-gradient(right,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
@@ -223,12 +227,16 @@ article{
 
 }
 
-.leftFaderDisabled{
-    position:absolute;
-    width:2rem;
-    height:4.7rem;
+.leftFader{
+    position:fixed;
+    width:3rem;
+    height:100%;
     z-index:2;
     left: 0;
+
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 1px;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
     background: -moz-linear-gradient(left,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
@@ -237,8 +245,6 @@ article{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 
 }
-
-
 
 .x-scroll-wrapper .fa { font-size: 2.5rem;  padding-left: 1.3rem; padding-right: 0.25rem; padding-top:1.3rem}
 
