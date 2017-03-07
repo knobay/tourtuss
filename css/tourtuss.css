@@ -13,8 +13,14 @@ font-size: 1em;
     font-size:0.7rem;
 }
 
+.destinationStars{
+    text-align: center;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+
 .homeExperience:last-child:after{
-    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0test";
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
 }
 
 
@@ -145,7 +151,7 @@ article{
 
 
 .languagesGrid{
-padding: .5 em;
+padding: .5em;
 }
 
 .languageColumn{
@@ -166,8 +172,11 @@ padding: .5 em;
     margin-top:0.0rem;
     border-bottom-style: solid;
     border-bottom-color: lightgrey;
-    border-bottom-width: 1px;
-    height:5em;
+    border-bottom-width: 0px;
+    border-top-style: solid;
+    border-top-color: lightgrey;
+    border-top-width: 1px;
+    height:5rem;
     }
 
 .x-scroll-wrapper {
@@ -186,45 +195,31 @@ padding: .5 em;
 
 .rightFader{
     position:absolute;
-    border-style:solid;
-    border-width:1px;
-    border-color:red;
-    width:9%;
+    width:3rem;
     height:4.7em;
     z-index:1;
     right: 0;
 
-
-
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
-background: -moz-linear-gradient(right,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(right,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to left,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f9f9f9',GradientType=1 ); /* IE6-9 */
-
-
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+    background: -moz-linear-gradient(right,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(right,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f9f9f9',GradientType=1 ); /* IE6-9 */
 
 }
 
 .leftFader{
     position:absolute;
-    border-style:solid;
-    border-width:1px;
-    border-color:red;
-    width:9%;
-    height:4.7em;
+    width:2rem;
+    height:4.7rem;
     z-index:2;
     left: 0;
 
-
-
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
-background: -moz-linear-gradient(left,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
-
-
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+    background: -moz-linear-gradient(left,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 
 }
 
@@ -237,6 +232,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', end
 .tourCount{
     font-size:0.5em;
     margin-left:0.2em;   
+}
+
+
+.homeReveal {
+    position:absolute;
+    text-align: left;
+    z-index:2;
+    right:0.5rem;
+    top:0rem;;
+
 }
 
 
