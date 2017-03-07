@@ -11,7 +11,7 @@
 
     <!-- jquery mobile -->
 
-	<link rel="stylesheet" href="themes/tourtuss-theme.min.css" />
+	<link rel="stylesheet" href="themes/tourtuss-theme.css" />
 	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
 	<link rel="stylesheet" href="jqm/jquery.mobile.structure-1.4.5.css" />
 	<script src="jquery/jquery-1.11.1.min.js"></script>

@@ -19,29 +19,24 @@
 
 
 
-
-  <h2><a href="experience.php">Colonial history walking tour</a> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>                
-          
- 
+        <div class="ui-body ui-body-a ui-corner-all">
+                 <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+  <h2><a href="experience.php">Colonial history walking tour</a></h2> 
+                
                 <p>Maria Sanchez Tours, Recoleta
                 <br>
                 4.6 km | $8.00 | 1 hour
                 </p>
-
-
 <figure>
     <img src="images/lisa.png" class="img-circle">
     <figcaption>Lisa Sanchez Garcia</figcaption>
 </figure>
 
-          
+      </div>    
 
-                <hr />
-
-
-
-
-                <h2><a href="experience.php">Chasing lamas</a> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>                
+        <div class="ui-body ui-body-a ui-corner-all">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <h2><a href="experience.php">Chasing lamas</a></h2>                
                 <p>Como se lama tours, Barrio Alto
                 <br>
                 13.2 km | $32.50 | 4-5 hours
@@ -50,6 +45,8 @@
     <img src="images/sam.png" class="img-circle">
     <figcaption>Victor Rodriguez</figcaption>
 </figure>
+
+</div>
         </article>
  
         <?php include ('footer.php'); ?>

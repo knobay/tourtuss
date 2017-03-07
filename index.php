@@ -1,5 +1,1 @@
-
-<?php 
-header("Location: ./destination.php");
-die();
- ?>
+<?php header('Location: ./destination.php'); exit(); ?>

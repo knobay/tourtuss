@@ -8,14 +8,34 @@ font-style: italic;
 font-size: 1em;
 }
 
-.hour  { font-size: 0.6rem; text-align: left;}
+.disclaimer{
+    text-align: justify;
+    font-size:0.7rem;
+}
+
 
 footer .fa { font-size: 2rem}
 
 footer .fa-shopping-basket{
-
 font-size: 1.8rem;
 }
+
+.tripper .fa {
+    font-size:1rem;
+}
+
+.tripper .fa-smile-o {
+    font-size:2rem;
+}
+
+.tripper .fa-meh-o {
+    font-size:2rem;
+}
+
+.tripper .fa-frown-o {
+    font-size:2rem;
+}
+
 
 footer [class^="ui-block-"] {
        text-align: center;
@@ -25,21 +45,34 @@ footer [class^="ui-block-"] {
 
 
 .detailsGrid {
-    font-size: x-small;
+    font-size: 0.7em;
+    text-align: left;
+    width: 200px;
+    margin:0 auto;
 }
 
+.hour{
+
+    margin-top:0.1rem;
+    text-indent: 1em;
+}
+
+figure {
+   margin:0;
+}
+
+figcaption{
+    font-style: italic;
+    font-size:0.8em;
+}
 
 .detailsGrid .ui-block-a {
-    text-align: left;
-    padding-right:10px;
-
-    width: 80px;
+    padding-right:5px;
 }
 
 .detailsGrid .ui-block-b {
-    text-align: left;
-    padding-right:10px;
-
+    padding-left:5px;
+    padding-bottom: 5px;
 }
 	
 .center {
@@ -63,14 +96,8 @@ a{
     margin-right: 0px;
     vertical-align: sub;
     font-size: 12px;
-    color: black;
+    color: #22264b;
     }
-
-.tg  {border-collapse:collapse;border-spacing:0;border:none;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:2px 2px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:2px 2px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-dx8v{font-size:12px;vertical-align:top;text-align:left}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
 
 .fa-star{
 
@@ -88,9 +115,10 @@ header .date{
 }
 
 
-
 .flag-icon  {
-        border-radius: 50%;
+  border-style:solid;
+  border-color:gray;
+  border-width:1px;
 }
 
 article{
@@ -101,7 +129,8 @@ article{
     text-align: left;
 }
 
-#experience article{
+
+#book article{
     text-align: left;
 }
 
@@ -125,6 +154,43 @@ padding: .5 em;
     text-align: left;
 }
 
+ .x-scroll-outer{
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    margin-top:0.0rem;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    border-bottom-width: 1px;
+    }
+
+.x-scroll-wrapper {
+    width: 100%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+    border-top-style: solid;
+    border-top-color: lightgrey;
+    border-top-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    border-bottom-width: 0px;
+}
+
+.x-scroll-wrapper .fa { font-size: 2.5rem;  padding-left: 1.3rem; padding-right: 0.25rem; padding-top:1.3rem}
+
+.hour  { font-size: 0.6rem; text-align: left; color:gray; margin-bottom:0.3rem; position:absolute;}
+
+
+
+.tourCount{
+    font-size:0.5em;
+    margin-left:0.2em;   
+}
+
+
+.typeCount {font-size: 0.7rem; font-weight: 600; vertical-align: sub}
+
 /* overriding jqm mobile structure style sheet */
 .ui-header .ui-title,
 .ui-footer .ui-title {
@@ -133,23 +199,12 @@ padding: .5 em;
     	margin: 0 10%;
 }
 
-
- .x-scroll-outer{
-    white-space: nowrap;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-    margin-top:1.4rem;
-    }
-
-.x-scroll-wrapper {
-  width: 100%;
-  padding: 0rem;
+#destination .ui-content {
+    padding: 0em;
 }
 
-.x-scroll-wrapper .fa { font-size: 2.2rem;  padding-left: 1.3rem; padding-right: 0.25rem;}
+.ui-corner-all {
+    margin:0.5rem;
+}
 
-
-
-.typeCount {font-size: 0.7rem; font-weight: 600; vertical-align: sub}
-
+ /* end overrides */

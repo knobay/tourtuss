@@ -16,8 +16,16 @@
        <article role="main" class="ui-content"  data-theme="a">
 
 <h2>Your tour is confirmed</h2>
-<p>You’re going to the Colonial History Walking Tour
-    <br>on...<br>17 February 2017 at 13:00-14:00.</p>
+
+   <div class="ui-body ui-body-a ui-corner-all">
+
+<h3>You’re joining...</h3>
+<p>
+    <br>Colonial History Walking Tour
+    <br>on...
+    <br>17 February 2017 at 13:00-14:00.
+</p>
+
 <p>
   <img class="img-circle" src="./images/santiago.jpg">
 </p>
@@ -30,14 +38,21 @@
      <div data-role="popup" id="citymap3" data-theme="a" class="ui-corner-all">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.0917488473656!2d-70.64453768480145!3d-33.42085228078241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5eb02e7ab69%3A0xac01fedfc8bee8ff!2sSan+Crist%C3%B3bal+460%2C+Recoleta%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1sen!2suk!4v1488590931531" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
+</div>
 
+
+<div class="ui-body ui-body-a ui-corner-all">
+<h3>Lisa Sanchez Garcia is your guide.</h3>
 <figure>
     <img src="images/lisa.png" class="img-circle">
     <figcaption>Lisa Sanchez Garcia</figcaption>
 </figure>
 
-<p>Lisa Sanchez Garcia is your guide.</p>
+
+
 <a href="#messageGuide" class="ui-btn" data-rel="popup" data-position-to="window"  data-transition="pop"><i class="fa fa-envelope"></i> Message guide</a>
+
+
 
   <div data-role="popup" id="messageGuide" data-theme="a" class="ui-corner-all">
           <form>
@@ -48,8 +63,17 @@
         </div>
     </form>
     </div>
+
+</div>
+
+
+
+<div class="ui-body ui-body-a ui-corner-all">
+
+<h3>Your tour is operated by Maria Sanchez Tours, Pallermo.</h3>
 <p><i class="fa fa-phone"></i> Tel no. +56 76786</p>
-<p>Operator: Maria Sanchez Tours, Pallermo</p>
+
+</div>
 
          </article>
 
