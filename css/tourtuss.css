@@ -8,6 +8,14 @@ font-style: italic;
 font-size: 1em;
 }
 
+#destinationPanel{
+
+    position: relative;
+    top:0;
+    z-index:4;
+    width:100%;
+}
+
 .disclaimer{
     text-align: justify;
     font-size:0.7rem;
@@ -24,7 +32,12 @@ font-size: 1em;
 }
 
 
-footer .fa { font-size: 2rem}
+footer .fa { font-size: 2rem;
+border-style:solid;
+border-width:0px;
+border-color:red;
+
+}
 
 footer .fa-shopping-basket{
 font-size: 1.8rem;

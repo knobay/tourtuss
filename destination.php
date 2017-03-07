@@ -8,7 +8,7 @@
     <section data-role="page" id="destination">
         <header data-role="header" data-position="fixed" data-theme="a">
                 <h1>
-                <a href="#popupcitysearch" data-rel="popup" data-position-to="window"  data-transition="pop">
+                <a href="#destinationTmp">
                   <span class="flag-icon flag-icon-squared flag-icon-cl"></span> Santiago 
                   <div class="homeReveal">
                     <i class="fa fa-chevron-down"></i>
@@ -16,21 +16,7 @@
                 </a>
                 </h1>
 
-            <div data-role="popup" id="popupcitysearch" data-theme="a" class="ui-corner-all">
-            <form>
-                <div style="padding:10px 20px;">
-                        <input type="text" id="searchField" placeholder="Destination">
-                        <ul id="suggestions" data-role="listview" data-inset="true"></ul>
-                        <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check" onClick="alert('This function does not work yet)">Change</button>
-                </div>
-            </form>
-            </div>
-            <div class="date"><a href="#popupDateChange" data-rel="popup" data-position-to="window" data-transition="pop"><?php $today=date("j F Y");echo $today;?></a>
-            </div>
 
-            <div data-role="popup" id="popupDateChange" data-theme="a" class="ui-corner-all">
-                <input type="text" class="date-input-inline" data-inline="true" data-role="date">
-            </div>
 
         </header>
 
@@ -193,7 +179,54 @@
 
         <?php include ('footer.php'); ?>
 
+
+
+
         </section>
+
+    <section data-role="page" id="destinationTmp">
+
+        <header data-role="header" data-position="fixed" data-theme="a">
+                <h1>
+                <a href="#destination">
+                  <span class="flag-icon flag-icon-squared flag-icon-cl"></span> Santiago 
+                  <div class="homeReveal">
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                </a>
+                </h1>
+
+
+
+        </header>
+
+        <article role="main" class="ui-content" data-theme="a">
+
+ 
+    <div id="destinationPanel">
+
+        <div id="popupcitysearch">
+                <div >
+                        <input type="text" id="searchField" placeholder="Type destination">
+                        <ul id="suggestions" data-role="listview" data-inset="true"></ul>
+                </div>
+
+        <div  id="popupDateChange">
+            <input type="text" class="date-input-inline" data-inline="true" data-role="date">
+        </div>
+
+
+        </div>
+
+
+
+
+
+
+    </div><!-- /panel -->
+
+</article>
+
         <script>
 
 		$("#destination").bind("pageshow", function(e) {
@@ -214,7 +247,22 @@
 				minLength: 1
 			});
 		});
+
+    function showPanel(){
+
+$('#destinationPanel').show();
+return false;
+
+    }
+
+        function hidePanel(){
+
+$('#destinationPanel').hide();
+return false;
+    }
 	</script>
+
+    </section>
 
 </body>
 </html>
