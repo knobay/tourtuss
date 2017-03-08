@@ -57,7 +57,7 @@
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">5</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-coffee"></i><span class="typeCount">3</span></a></span>
-                <span class="homeExperience"><a href="./listing.php"><i class="fa fa-soccer"></i><span class="typeCount">1</span></a></span>
+                <span class="homeExperience"><a href="./listing.php"><i class="fa fa-ship"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paw"></i><span class="typeCount">3</span></a></span>
             </div>
         </div>
