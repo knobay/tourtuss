@@ -1,0 +1,302 @@
+body{        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+ 
+
+cite {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 500;
+font-style: italic;
+font-size: 1em;
+}
+
+#destinationPanel{
+
+    position: relative;
+    top:0;
+    z-index:4;
+    width:100%;
+}
+
+.disclaimer{
+    text-align: justify;
+    font-size:0.7rem;
+}
+
+.destinationStars{
+    text-align: center;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+
+.homeExperience:last-child:after{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+}
+
+
+footer .fa { font-size: 2rem;
+border-style:solid;
+border-width:0px;
+border-color:red;
+
+}
+
+footer .fa-shopping-basket{
+font-size: 1.8rem;
+}
+
+.tripper .fa {
+    font-size:1rem;
+}
+
+.tripper .fa-smile-o {
+    font-size:2rem;
+}
+
+.tripper .fa-meh-o {
+    font-size:2rem;
+}
+
+.tripper .fa-frown-o {
+    font-size:2rem;
+}
+
+
+footer [class^="ui-block-"] {
+       text-align: center;
+       padding:0.4em;
+       padding-top:0.5em;
+}
+
+
+.detailsGrid {
+    font-size: 0.7em;
+    text-align: left;
+    width: 200px;
+    margin:0 auto;
+}
+
+.hour{
+
+    margin-top:0.1rem;
+    text-indent: 1em;
+}
+
+figure {
+   margin:0;
+}
+
+figcaption{
+    font-style: italic;
+    font-size:0.8em;
+}
+
+.detailsGrid .ui-block-a {
+    padding-right:5px;
+}
+
+.detailsGrid .ui-block-b {
+    padding-left:5px;
+    padding-bottom: 5px;
+}
+	
+.center {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer-count{
+    border-radius:50%;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: sub;
+    font-size: 12px;
+    color: #22264b;
+    }
+
+.fa-star{
+
+color:goldenrod;
+}
+
+header .date{
+   text-align: center; 
+   font-size:x-small;
+   padding-bottom: 0.5em;
+}
+
+.img-circle {
+        border-radius: 50%;
+}
+
+
+.flag-icon  {
+  border-style:solid;
+  border-color:gray;
+  border-width:1px;
+}
+
+article{
+    text-align: center; 
+}
+
+#destination article{
+    text-align: left;
+}
+
+
+#book article{
+    text-align: left;
+}
+
+.fa-tourtuss {
+	content: url(../images/tourtuss.svg), url(../images/tourtuss.png);
+    width: 45px; height: 29px;
+}
+
+
+.languagesGrid{
+    padding: .5em;
+}
+
+.languageColumn{
+    text-align: right;
+    padding-right:10px;
+    height:25px;
+}
+
+.languageColumn.score{
+    text-align: left;
+}
+
+ .x-scroll-outer{
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    margin-top:0.0rem;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    border-bottom-width: 0px;
+    border-top-style: solid;
+    border-top-color: lightgrey;
+    border-top-width: 0px;
+    height:5rem;
+    }
+
+.x-scroll-wrapper {
+    width: 100%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1rem;;
+    border-top-style: solid;
+    border-top-color: lightgrey;
+    border-top-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    border-bottom-width: 0px;
+    z-index:0;
+}
+
+
+
+.rightFader{
+    position:fixed;
+    width:2rem;
+    height:100%;
+    z-index:1;
+    right: 0;
+
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 1px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+    background: -moz-linear-gradient(right,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(right,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f9f9f9',GradientType=1 ); /* IE6-9 */
+
+}
+
+.leftFader{
+    position:fixed;
+    width:3rem;
+    height:100%;
+    z-index:2;
+    left: 0;
+
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 1px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+    background: -moz-linear-gradient(left,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+
+.x-scroll-wrapper .fa { font-size: 2.5rem;  padding-left: 1.3rem; padding-right: 0.25rem; padding-top:1.3rem}
+
+.hour  {
+    width:100%;
+    padding-left: 0.2rem;
+    padding-top: 0.3rem;
+    font-size: 0.6rem;
+    text-align: left;
+    color:gray;
+    margin-bottom:0.2rem;
+    position:absolute;
+    border-top-style:solid;
+    border-top-width:1px;
+    border-top-color:lightgray;
+    z-index:3
+    }
+
+
+
+.tourCount{
+    font-size:0.5em;
+    margin-left:0.2em;   
+}
+
+
+.homeReveal {
+    position:absolute;
+    text-align: left;
+    z-index:2;
+    right:0.5rem;
+    top:0rem;;
+
+}
+
+
+.typeCount {font-size: 0.7rem; font-weight: 600; vertical-align: sub}
+
+/* overriding jqm mobile structure style sheet */
+.ui-header .ui-title,
+.ui-footer .ui-title {
+	font-size: 1.5em;
+	padding: 0.2em 0;
+    	margin: 0 10%;
+}
+
+#destination .ui-content {
+    padding: 0em;
+}
+
+.ui-corner-all {
+    margin:0.5rem;
+}
+
+ /* end overrides */
