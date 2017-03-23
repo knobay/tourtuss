@@ -200,7 +200,7 @@
 
 		$("#destination").bind("pageshow", function(e) {
 
-			var autocompleteData = $.parseJSON('[{"value":"Bath","label":"Bath, England"},{"value":"Bristol","label":"Bristol, England"},{"value":"Cardiff","label":"Cardiff, Wales"},{"value":"Edinburgh","label":"Edinburgh, Scotland"},{"value":"London","label":"London, England"},{"value":"New York","label":"New York, USA"},{"value":"Paris","label":"Paris, France"},{"value":"Santiago","label":"Santiago, Chile"}]');
+			var autocompleteData = $.parseJSON('[<?php include ('./autocomplete/cities.json'); ?>]');
 
 			$("#searchField").autocomplete({
 				target: $('#suggestions'),
