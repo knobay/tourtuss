@@ -85,7 +85,7 @@
                                 </div>
                                 <div class="ui-block-b">
                                     <div>
-                                        <a href="#citymap" data-rel="popup" data-position-to="window"  data-transition="pop">
+                                        <a href="#bookCitymap" data-rel="popup" data-position-to="window"  data-transition="pop">
                                             <i class="fa fa-map-marker"></i> San Cristóbal 460<br>Recoleta<br>Región Metropolitana<br>Chile
                                         </a>
                                     </div>
@@ -108,11 +108,19 @@
 
 
   </div>
+
+        <!-- hidden popups -->
+        <div data-role="popup" id="bookCitymap" data-theme="a" class="ui-corner-all">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.0917488473656!2d-70.64453768480145!3d-33.42085228078241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5eb02e7ab69%3A0xac01fedfc8bee8ff!2sSan+Crist%C3%B3bal+460%2C+Recoleta%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1sen!2suk!4v1488590931531" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <!-- /popups -->
+
 </article>
 
         <?php include ('footer.php'); ?>
 
-    </section>
+</section>
 
 
 </body>
