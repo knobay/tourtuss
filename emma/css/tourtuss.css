@@ -8,6 +8,12 @@ font-style: italic;
 font-size: 1em;
 }
 
+.deleteCard{
+    position: absolute;
+    right: 10px;
+    font-size: 1.2rem;
+}
+
 #destinationPanel{
 
     position: relative;
