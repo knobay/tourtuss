@@ -25,33 +25,32 @@
 
         <article role="main" class="ui-content" data-theme="a">
 
-        <div class="leftFader"></div>
-        <div class="rightFader"></div>
+
 
         <div class="destinationStars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
 
-        <div class="hour"><?php $today=date("G");echo $today;?>:00</div>
 
-        <div class="x-scroll-outer">
-            <div class="x-scroll-wrapper">
+
+   
+            <div class="hourlyActivitiesWrapper">
+                <div class="hour"><?php $today=date("G");echo $today;?>:00</div>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-camera"></i><span class="typeCount">2</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-cutlery"></i><span class="typeCount">3</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-beer"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bank"></i><span class="typeCount">3</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a></span>
-                <span class="homeExperience"><a href="./listing.php"><i class="fa fa-mortar-board"></i><span class="typeCount">3</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-coffee"></i><span class="typeCount">3</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-futbol-o"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paw"></i><span class="typeCount">3</span></a></span>
             </div>
-        </div>
 
 
 
-        <div class="hour"><?php $today=date("G", strtotime('+1 hours'));echo $today;?>:00</div>
-        <div class="x-scroll-outer">
-            <div class="x-scroll-wrapper">    
+
+
+            <div class="hourlyActivitiesWrapper">
+                <div class="hour"><?php $today=date("G", strtotime('+1 hours'));echo $today;?>:00</div>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-beer"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bank"></i><span class="typeCount">2</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a></span>
@@ -60,92 +59,84 @@
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-ship"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paw"></i><span class="typeCount">3</span></a></span>
             </div>
-        </div>
 
                  
-        <div class="hour"><?php $today=date("G", strtotime('+2 hours'));echo $today;?>:00</div>
-        <div class="x-scroll-outer">
-            <div class="x-scroll-wrapper">
+
+
+            <div class="hourlyActivitiesWrapper">
+                    <div class="hour"><?php $today=date("G", strtotime('+2 hours'));echo $today;?>:00</div>
                     <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a></span>
                     <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a></span>
             </div>
-        </div>
 
         
 
 
 
-        <div class="hour"><?php $today=date("G", strtotime('+3 hours'));echo $today;?>:00</div>
-        <div class="x-scroll-outer">
-            <div class="x-scroll-wrapper">
+
+            <div class="hourlyActivitiesWrapper">
+                <div class="hour"><?php $today=date("G", strtotime('+3 hours'));echo $today;?>:00</div>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-cutlery"></i><span class="typeCount">4</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-beer"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bank"></i><span class="typeCount">2</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a></span>
             </div>
-        </div>
 
         
 
-        <div class="hour"><?php $today=date("G", strtotime('+4 hours'));echo $today;?>:00</div>
-        <div class="x-scroll-outer">
-            <div class="x-scroll-wrapper">
+
+            <div class="hourlyActivitiesWrapper">
+                <div class="hour"><?php $today=date("G", strtotime('+4 hours'));echo $today;?>:00</div>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a></span>
             </div>
-        </div>
-
         
-        <div class="hour"><?php $today=date("G", strtotime('+5 hours'));echo $today;?>:00</div>
-        <div class="x-scroll-outer">
-            <div class="x-scroll-wrapper">
+        
+            <div class="hourlyActivitiesWrapper">
+                <div class="hour"><?php $today=date("G", strtotime('+5 hours'));echo $today;?>:00</div>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a></span>
             </div>
-        </div>
 
 
 
-        <div class="hour"><?php $today=date("G", strtotime('+6 hours'));echo $today;?>:00</div>
-        <div class="x-scroll-outer">
-            <div class="x-scroll-wrapper">
+        
+
+            <div class="hourlyActivitiesWrapper">
+                <div class="hour"><?php $today=date("G", strtotime('+6 hours'));echo $today;?>:00</div>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">4</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a></span>
             </div>
-        </div>
 
         
 
 
-        <div class="hour"><?php $today=date("G", strtotime('+7 hours'));echo $today;?>:00</div>
-        <div class="x-scroll-outer">
-            <div class="x-scroll-wrapper">
+        
+            <div class="hourlyActivitiesWrapper">
+                <div class="hour"><?php $today=date("G", strtotime('+7 hours'));echo $today;?>:00</div>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-cutlery"></i><span class="typeCount">2</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-beer"></i><span class="typeCount">2</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bank"></i><span class="typeCount">3</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">3</span></a></span>
             </div>
-        </div>
 
         
 
-        <div class="hour"><?php $today=date("G", strtotime('+8 hours'));echo $today;?>:00</div>
-        <div class="x-scroll-outer">
-            <div class="x-scroll-wrapper">
+        
+            <div class="hourlyActivitiesWrapper">
+                <div class="hour"><?php $today=date("G", strtotime('+8 hours'));echo $today;?>:00</div>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">1</span></a></span>
             </div>
-        </div>
 
         
 
-        <div class="hour"><?php $today=date("G", strtotime('+9 hours'));echo $today;?>:00</div>
-        <div class="x-scroll-outer"> 
-            <div class="x-scroll-wrapper">
+        
+            <div class="hourlyActivitiesWrapper">
+                <div class="hour"><?php $today=date("G", strtotime('+9 hours'));echo $today;?>:00</div>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-bicycle"></i><span class="typeCount">1</span></a></span>
                 <span class="homeExperience"><a href="./listing.php"><i class="fa fa-paint-brush"></i><span class="typeCount">1</span></a></span>
             </div>
-        </div>
 
         </article>
 
