@@ -33,12 +33,12 @@ font-size: 1em;
     margin-bottom:0.5rem;
 }
 
-.homeExperience:last-child:after{
-    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+.homeExperience{
+    white-space: nowrap;
 }
 
 
-footer .fa { font-size: 2rem;
+footer .fa { font-size: 2.5rem;
 border-style:solid;
 border-width:0px;
 border-color:red;
@@ -165,7 +165,7 @@ article{
 
 .fa-tourtuss {
 	content: url(../images/tourtuss.svg), url(../images/tourtuss.png);
-    width: 45px; height: 29px;
+    width: 55px; height: 34px;
 }
 
 
@@ -183,98 +183,36 @@ article{
     text-align: left;
 }
 
- .x-scroll-outer{
-    white-space: nowrap;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-    margin-top:0.0rem;
-    border-bottom-style: solid;
-    border-bottom-color: lightgrey;
-    border-bottom-width: 0px;
-    border-top-style: solid;
-    border-top-color: lightgrey;
-    border-top-width: 0px;
-    height:5rem;
-    }
 
-.x-scroll-wrapper {
-    width: 100%;
-    padding-top: 0.4rem;
-    padding-bottom: 0.3rem;
-    padding-left: 1rem;;
-    border-top-style: solid;
-    border-top-color: lightgrey;
-    border-top-width: 0px;
-    border-bottom-style: solid;
-    border-bottom-color: lightgrey;
-    border-bottom-width: 0px;
-    z-index:0;
+.hourlyActivitiesWrapper{
+    text-align: center;
+    border-bottom-style:solid;
+    border-bottom-color:lightgray;
+    border-bottom-width:1px;
+    margin-top:0.5em;
 }
 
-
-
-.rightFader{
-    position:fixed;
-    width:2rem;
-    height:100%;
-    z-index:1;
-    right: 0;
-
-    border-bottom-style: solid;
-    border-bottom-color: red;
-    border-bottom-width: 1px;
-
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
-    background: -moz-linear-gradient(right,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(right,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to left,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f9f9f9',GradientType=1 ); /* IE6-9 */
+.hourlyActivitiesWrapper .fa {
+    font-size: 3.2rem;
+    padding-left: 1.0rem;
+    padding-right: 0.4rem;
+    padding-top:1.2rem;
+    padding-bottom:1.0rem
 
 }
 
-.leftFader{
-    position:fixed;
-    width:3rem;
-    height:100%;
-    z-index:2;
-    left: 0;
-
-    border-bottom-style: solid;
-    border-bottom-color: red;
-    border-bottom-width: 1px;
-
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
-    background: -moz-linear-gradient(left,  rgba(249,249,249,1) 0%, rgba(249,249,249,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(249,249,249,1) 0%,rgba(249,249,249,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
-
+.typeCount {
+    color:gray;
+    font-size: 0.7rem;
+    font-weight: 400;
 }
 
-.x-scroll-wrapper .fa { font-size: 2.5rem;  padding-left: 1.3rem; padding-right: 0.25rem; padding-top:1.3rem}
 
 .hour  {
-    width:100%;
-    padding-left: 0.2rem;
-    padding-top: 0.3rem;
     font-size: 0.6rem;
     text-align: left;
-    color:gray;
-    margin-bottom:0.2rem;
-    position:absolute;
-    border-top-style:solid;
-    border-top-width:1px;
-    border-top-color:lightgray;
-    z-index:3
-    }
-
-
-
-.tourCount{
-    font-size:0.5em;
-    margin-left:0.2em;   
 }
+
 
 
 .homeReveal {
@@ -287,7 +225,7 @@ article{
 }
 
 
-.typeCount {font-size: 0.7rem; font-weight: 600; vertical-align: sub}
+
 
 /* overriding jqm mobile structure style sheet */
 .ui-header .ui-title,
@@ -298,7 +236,7 @@ article{
 }
 
 #destination .ui-content {
-    padding: 0em;
+    padding: 0.2em;
 }
 
 .ui-corner-all {
