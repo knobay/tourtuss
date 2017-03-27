@@ -168,6 +168,11 @@ article{
     width: 55px; height: 34px;
 }
 
+.fa-tourtuss-inverse{
+	content: url(../images/tourtussInverse.svg);
+    width: 55px; height: 34px;
+}
+
 
 .languagesGrid{
     padding: .5em;
@@ -225,7 +230,10 @@ article{
 }
 
 
-
+.tourCount {
+    font-size: 0.5em;
+    margin-left: 0.2em;
+}
 
 /* overriding jqm mobile structure style sheet */
 .ui-header .ui-title,
@@ -241,6 +249,14 @@ article{
 
 .ui-corner-all {
     margin:0.5rem;
+}
+
+.ui-bar-a {
+    background-color: #22264b;
+}
+
+header.ui-bar-a {
+    background-color:#e8edf2;
 }
 
  /* end overrides */
