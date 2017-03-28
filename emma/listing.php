@@ -21,7 +21,7 @@
 
         <div class="ui-body ui-body-a ui-corner-all">
                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-  <h2><a href="experience.php">Colonial history walking tour</a></h2> 
+  <h2><a href="experience.php">Photographing colonial architecture</a></h2> 
                 
                 <p>Maria Sanchez Tours, Recoleta
                 <br>

@@ -54,7 +54,7 @@
                                     <div>Tour</div>
                                 </div>
                                 <div class="ui-block-b">
-                                    <div>Colonial history walking tour, 13:00, 17 February 2017</div>
+                                    <div>Photographing colonial architecture, 13:00, 17 February 2017</div>
                                 </div>
                                 <div class="ui-block-a">
                                     <div>Guide</div>

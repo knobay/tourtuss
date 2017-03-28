@@ -38,16 +38,13 @@ font-size: 1em;
 }
 
 
-footer .fa { font-size: 2.5rem;
+footer .fa { font-size: 2.4rem;
 border-style:solid;
 border-width:0px;
 border-color:red;
 
 }
 
-footer .fa-shopping-basket{
-font-size: 1.8rem;
-}
 
 .tripper .fa {
     font-size:1rem;
@@ -121,7 +118,7 @@ a{
     padding-right:4px;
     padding-top:0px;
     padding-bottom:0px;
-    margin-left: 0px;
+    margin-left: 3px;
     margin-right: 0px;
     vertical-align: sub;
     font-size: 12px;
@@ -163,14 +160,9 @@ article{
     text-align: left;
 }
 
-.fa-tourtuss {
-	content: url(../images/tourtuss.svg), url(../images/tourtuss.png);
-    width: 55px; height: 34px;
-}
-
-.fa-tourtuss-inverse{
+.tourtuss-inverse::after{
 	content: url(../images/tourtussInverse.svg);
-    width: 55px; height: 34px;
+
 }
 
 
@@ -240,7 +232,7 @@ article{
 .ui-footer .ui-title {
 	font-size: 1.5em;
 	padding: 0.2em 0;
-    	margin: 0 10%;
+    margin: 0 10%;
 }
 
 #destination .ui-content {

@@ -21,7 +21,7 @@
 
 <h3>You’re joining...</h3>
 <p>
-    <br>Colonial History Walking Tour
+    <br>Photographing colonial architecture
     <br>on...
     <br>17 February 2017 at 13:00-14:00.
 </p>

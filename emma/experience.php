@@ -8,7 +8,7 @@
 
     <header data-role="header" data-position="fixed" data-theme="a">
         <h1>
-            Colonial history walking tour
+            Photographing colonial architecture
         </h1>
     </header>
 
@@ -20,7 +20,7 @@
             <cite>
                 <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
                 <br />
-                Lunchtime walking tour of hidden colonial buildings near the park with friendly local archaeologist Lisa. Best for photographers and history geeks.
+                Lunchtime walking tour and photography class with local photographer Lisa. Visit some hidden colonial gems and learn some professional techniques for photographing historical buildings.
             </cite>
 
             <p>

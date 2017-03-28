@@ -144,6 +144,10 @@
 
         </section>
 
+
+<!-- pop down panel -->
+
+
         <section data-role="page" id="destinationTmp">
 
         <header data-role="header" data-position="fixed" data-theme="a">
@@ -163,7 +167,7 @@
         <article role="main" class="ui-content" data-theme="a">
 
  
-    <div id="destinationPanel">
+        <div id="destinationPanel">
 
         <div id="popupcitysearch">
                 <div >
@@ -183,9 +187,10 @@
 
 
 
-    </div><!-- /panel -->
+    </div>
 
 </article>
+
 
         <script>
 
@@ -208,21 +213,13 @@
 			});
 		});
 
-    function showPanel(){
 
-$('#destinationPanel').show();
-return false;
-
-    }
-
-        function hidePanel(){
-
-$('#destinationPanel').hide();
-return false;
-    }
 	</script>
 
     </section>
+
+
+    <!-- / pop down panel -->
 
 </body>
 </html>
