@@ -13,8 +13,8 @@
     </h1>
     <h2>Releases available</h2>
         <ul>
-            <li><a href="./emma">Emma</a></li>
-            <li><a href="./valentina">Valentina (latest stable)</a></li>
+            <li><a href="./emma">Emma (latest stable)</a></li>
+            <li><a href="./valentina">Valentina</a></li>
             <li><a href="./justine">Justine</a></li>
         </ul>
 </body>

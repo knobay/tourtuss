@@ -15,7 +15,7 @@
 
             <div class="ui-body ui-body-a ui-corner-all">
 
-                            <div class="editCard"><i class="fa fa-edit"></i></div>
+                            <div class="editCard" onClick="alert('To be completed - edit profile screen')"><i class="fa fa-edit"></i></div>
 
 <p>
   <img src="images/lizzie.png" class="img-circle">
