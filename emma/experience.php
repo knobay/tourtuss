@@ -7,6 +7,7 @@
 <section data-role="page" id="experience" data-theme="a">
 
     <header data-role="header" data-position="fixed" data-theme="a">
+         <?php include ('hamburgerMenu.php'); ?>
         <h1>
             Photographing colonial architecture
         </h1>

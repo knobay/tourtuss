@@ -4,11 +4,21 @@
 <html lang="en">
 <?php include ('head.php'); ?>
 <body>
-   
+
+
+
+
+
     <section data-role="page" id="destination">
         <header data-role="header" data-position="fixed" data-theme="a">
+            
+                <?php include ('hamburgerMenu.php'); ?>
+        
                 <h1>
+
                 <a href="#destinationTmp" data-transition="none">
+
+
                   <span class="flag-icon flag-icon-squared flag-icon-cl"></span> Santiago 
                   <div class="homeReveal">
                     <i class="fa fa-chevron-down"></i>

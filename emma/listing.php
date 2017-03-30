@@ -5,9 +5,20 @@
 <?php include ('head.php'); ?>
 <body>
 
+
+<div data-role="popup" id="popupHamburger" data-theme="none">
+<ul>
+<li>Notificaitons</li>
+<li>Bookings</li>
+<li>Shortlist</li>
+<li>Settings</li>
+</ul>
+</div><!-- /popup -->
+
         <section data-role="page" id="listing" data-theme="a">
 
         <header data-role="header" data-position="fixed" data-theme="a">
+          <?php include ('hamburgerMenu.php'); ?>
           <h1><i class="fa fa-camera fa-1x"></i> Santiago 13:00</h1>
 
                   <div class="date"><?php $today=date("j F Y");echo $today;?></a>

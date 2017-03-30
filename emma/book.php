@@ -6,7 +6,7 @@
 
     <section data-role="page" id="book">
         <header data-role="header" data-position="fixed" data-theme="a">
-            
+            <?php include ('hamburgerMenu.php'); ?>
             <h1>
                 <i class="fa fa-shopping-basket"></i> Join        
             </h1>

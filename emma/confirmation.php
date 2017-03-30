@@ -7,15 +7,13 @@
  
     <section data-role="page" id="confirmation">
         <header data-role="header" data-position="fixed" data-theme="a">
-
+           <?php include ('hamburgerMenu.php'); ?>
             <h1>
               <i class="fa fa-tick"></i> Confirmation        
             </h1>
         </header>
 
        <article role="main" class="ui-content"  data-theme="a">
-
-<h2>Your tour is confirmed</h2>
 
    <div class="ui-body ui-body-a ui-corner-all">
 
