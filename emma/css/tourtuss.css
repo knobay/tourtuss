@@ -115,11 +115,11 @@ a{
     text-decoration: none;
 }
 
-.footer-count{
+.profileNotificationsCount{
     border-radius:50%;
     width: 20px;
     height: 20px;
-    background-color: yellow;
+    background-color: darkolivegreen;
     padding-left:4px;
     padding-right:4px;
     padding-top:0px;
@@ -128,13 +128,38 @@ a{
     margin-right: 0px;
     vertical-align: sub;
     font-size: 12px;
+    color: yellow;
+    }
+
+.profileWarning{
+    border-radius:50%;
+    width: 5rem;
+    height: 3rem;
+    background-color: yellow;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-left: 3px;
+    margin-right: 0px;
+    vertical-align: sub;
+    font-size: 1rem;
     color: #22264b;
     }
+
+
+
+.profileButton {
+ width:3.5rem;
+}
+
 
 .fa-star{
 
 color:goldenrod;
 }
+
+
 
 header .date{
    text-align: center; 

@@ -23,6 +23,13 @@
 
 
 <p>
+        <a href="notifications.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-bell fa-2x"></i><span class="profileNotificationsCount">2</span></a>
+        <a href="bookings.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-shopping-basket fa-2x"></i><span class="profileNotificationsCount">2</span></a>
+        <a href="maybes.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-lightbulb-o fa-2x"></i><span class="profileNotificationsCount">7</span></a>
+</p>           
+
+
+<p>
                 <i class="fa fa-smile-o fa-2x"></i><span class="tourCount">325</span>
                 <i class="fa fa-meh-o fa-2x"></i><span class="tourCount">116</span>
                 <i class="fa fa-meh-o fa-2x"></i><span class="tourCount">100</span>
