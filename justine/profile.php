@@ -1,8 +1,5 @@
 <?php include ('template-top.php'); ?>
 
-
-
-
     <header>
 
     <div class="row">

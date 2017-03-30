@@ -15,9 +15,18 @@
 
             <div class="ui-body ui-body-a ui-corner-all">
 
+                            <div class="editCard"><i class="fa fa-edit"></i></div>
+
 <p>
   <img src="images/lizzie.png" class="img-circle">
 </p>
+
+
+<p>
+        <a href="notifications.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-bell fa-2x"></i><span class="profileNotificationsCount">2</span></a>
+        <a href="bookings.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-shopping-basket fa-2x"></i><span class="profileNotificationsCount">2</span></a>
+        <a href="maybes.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-lightbulb-o fa-2x"></i><span class="profileNotificationsCount">7</span></a>
+</p>           
 
 
 <p>
