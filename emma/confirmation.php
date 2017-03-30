@@ -7,7 +7,7 @@
  
     <section data-role="page" id="confirmation">
         <header data-role="header" data-position="fixed" data-theme="a">
-
+           <?php include ('hamburgerMenu.php'); ?>
             <h1>
               <i class="fa fa-tick"></i> Confirmation        
             </h1>
@@ -15,13 +15,11 @@
 
        <article role="main" class="ui-content"  data-theme="a">
 
-<h2>Your tour is confirmed</h2>
-
    <div class="ui-body ui-body-a ui-corner-all">
 
 <h3>You’re joining...</h3>
 <p>
-    <br>Colonial History Walking Tour
+    <br>Photographing colonial architecture
     <br>on...
     <br>17 February 2017 at 13:00-14:00.
 </p>

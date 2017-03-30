@@ -4,11 +4,21 @@
 <html lang="en">
 <?php include ('head.php'); ?>
 <body>
-   
+
+
+
+
+
     <section data-role="page" id="destination">
         <header data-role="header" data-position="fixed" data-theme="a">
+            
+                <?php include ('hamburgerMenu.php'); ?>
+        
                 <h1>
+
                 <a href="#destinationTmp" data-transition="none">
+
+
                   <span class="flag-icon flag-icon-squared flag-icon-cl"></span> Santiago 
                   <div class="homeReveal">
                     <i class="fa fa-chevron-down"></i>
@@ -144,6 +154,10 @@
 
         </section>
 
+
+<!-- pop down panel -->
+
+
         <section data-role="page" id="destinationTmp">
 
         <header data-role="header" data-position="fixed" data-theme="a">
@@ -163,7 +177,7 @@
         <article role="main" class="ui-content" data-theme="a">
 
  
-    <div id="destinationPanel">
+        <div id="destinationPanel">
 
         <div id="popupcitysearch">
                 <div >
@@ -183,9 +197,10 @@
 
 
 
-    </div><!-- /panel -->
+    </div>
 
 </article>
+
 
         <script>
 
@@ -208,21 +223,13 @@
 			});
 		});
 
-    function showPanel(){
 
-$('#destinationPanel').show();
-return false;
-
-    }
-
-        function hidePanel(){
-
-$('#destinationPanel').hide();
-return false;
-    }
 	</script>
 
     </section>
+
+
+    <!-- / pop down panel -->
 
 </body>
 </html>

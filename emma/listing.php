@@ -5,9 +5,20 @@
 <?php include ('head.php'); ?>
 <body>
 
+
+<div data-role="popup" id="popupHamburger" data-theme="none">
+<ul>
+<li>Notificaitons</li>
+<li>Bookings</li>
+<li>Shortlist</li>
+<li>Settings</li>
+</ul>
+</div><!-- /popup -->
+
         <section data-role="page" id="listing" data-theme="a">
 
         <header data-role="header" data-position="fixed" data-theme="a">
+          <?php include ('hamburgerMenu.php'); ?>
           <h1><i class="fa fa-camera fa-1x"></i> Santiago 13:00</h1>
 
                   <div class="date"><?php $today=date("j F Y");echo $today;?></a>
@@ -21,7 +32,7 @@
 
         <div class="ui-body ui-body-a ui-corner-all">
                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-  <h2><a href="experience.php">Colonial history walking tour</a></h2> 
+  <h2><a href="experience.php">Photographing colonial architecture</a></h2> 
                 
                 <p>Maria Sanchez Tours, Recoleta
                 <br>

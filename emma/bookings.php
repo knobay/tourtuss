@@ -4,10 +4,11 @@
 <?php include ('head.php'); ?>
 <body>
 
+
  
     <section data-role="page" id="bookings">
         <header data-role="header" data-position="fixed" data-theme="a">
-
+             <?php include ('hamburgerMenu.php'); ?>
             <h1>
                 <i class="fa fa-shopping-basket"></i> Bookings        
             </h1>

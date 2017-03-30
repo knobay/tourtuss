@@ -6,9 +6,8 @@
 
  
     <section data-role="page" id="profile">
-        <header data-role="header" data-position="fixed" data-theme="a">
-           
-            
+        <header data-role="header" data-position="fixed" data-theme="a">    
+           <?php include ('hamburgerMenu.php'); ?>         
             <h1><span class="flag-icon flag-icon-squared flag-icon-it"></span> Velentina</h1>
         </header>
 
