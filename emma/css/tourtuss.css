@@ -17,7 +17,7 @@ font-size: 1em;
 .editCard{
     position: absolute;
     right: 10px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 #destinationPanel{
@@ -124,7 +124,7 @@ a{
     padding-right:4px;
     padding-top:0px;
     padding-bottom:0px;
-    margin-left: 3px;
+    margin-left: 0px;
     margin-right: 0px;
     vertical-align: sub;
     font-size: 12px;
@@ -135,7 +135,6 @@ a{
     border-radius:50%;
     width: 5rem;
     height: 3rem;
-    background-color: yellow;
     padding-left:4px;
     padding-right:4px;
     padding-top:0px;
@@ -143,14 +142,19 @@ a{
     margin-left: 3px;
     margin-right: 0px;
     vertical-align: sub;
-    font-size: 1rem;
-    color: #22264b;
+    font-size: 1.6rem;
+    font-style:bold;
+    color: yellow;
     }
 
 
 
 .profileButton {
- width:3.5rem;
+ width:1.9rem;
+ font-size:1.5rem;
+ padding:0.9rem;
+ margin-left:0px;   
+  margin-right:0px;   
 }
 
 
