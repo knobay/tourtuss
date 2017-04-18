@@ -15,7 +15,7 @@
 
             <div class="ui-body ui-body-a ui-corner-all">
 
-                            <div class="editCard" onClick="alert('To be completed - edit profile screen')"><i class="fa fa-edit"></i></div>
+                            <div class="profileSettings" onClick="alert('To be completed - edit settings and profile')"><i class="fa fa-gear"></i></div>
 
 <p>
   <img src="images/lizzie.png" class="img-circle">
@@ -23,9 +23,9 @@
 
 
 <p>
-        <a href="notifications.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-bell fa-2x"></i><span class="profileNotificationsCount">2</span></a>
-        <a href="bookings.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-shopping-basket fa-2x"></i><span class="profileNotificationsCount">2</span></a>
-        <a href="maybes.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-lightbulb-o fa-2x"></i><span class="profileNotificationsCount">7</span></a>
+        <a href="notifications.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-bell"></i><span class="profileNotificationsCount">2</span></a>
+        <a href="bookings.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-shopping-basket"></i><span class="profileNotificationsCount">2</span></a>
+        <a href="maybes.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-lightbulb-o"></i><span class="profileNotificationsCount">5</span></a>
 </p>           
 
 
