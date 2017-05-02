@@ -50,7 +50,7 @@
                     <div class="feedColumn"><img src="./images/john.png" class="miniProfile"></div>
                 </div>
                 <div class="ui-block-b">
-                    <div class="feedColumn description"><h3>Johnny N</h3><p>2 days</p></div>
+                    <div class="feedColumn description"><h3>John N</h3><p>2 days</p></div>
                     </div>
                 </div>
             </div>
