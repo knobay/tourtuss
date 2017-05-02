@@ -14,7 +14,7 @@
 
         <article role="main" class="ui-content"  data-theme="a">
      
-                <h2>Colonial history walking tour</h2><h3>17 February 2017, 13:00</h3>
+                <h2>Photographing colonial architecture</h2><h3>17 February 2017, 13:00</h3>
   
    <div class="ui-body ui-body-a ui-corner-all">
     <h2>Joining</h2>

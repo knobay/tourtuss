@@ -16,12 +16,43 @@
 
        <article role="main" class="ui-content"  data-theme="a">
 
-            <h2>
-                To be completed
-            </h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ipsum itaque sed doloremque quidem eum placeat voluptatum neque est dolores corporis dolore, possimus facere hic earum iste assumenda quas aliquam.
-            </p>
+
+        <div class="ui-body ui-body-a ui-corner-all">
+            <h2><a href="experience.php">3rd April</a></h2> 
+                <figure>
+                    <img src="images/mosque.jpg" class="img-circle">
+                    <figcaption>Mosque Tour</figcaption>
+                </figure>
+
+                <p>Starts at 10am</p>
+                <p>2 hour experience in Istanbul</p>
+        </div>    
+
+     
+        <div class="ui-body ui-body-a ui-corner-all">
+            <h2><a href="experience.php">4th-10th April</a></h2> 
+                <figure>
+                    <img src="images/camel.jpg" class="img-circle">
+                    <figcaption>Camel trekking</figcaption>
+                </figure>
+
+                <p>Starts at 2pm</p>
+                <p>7 day experience in Kayakoy</p>
+        </div>    
+
+
+        <div class="ui-body ui-body-a ui-corner-all">
+            <h2><a href="experience.php">20th April</a></h2> 
+                <figure>
+                    <img src="images/dervish.jpg" class="img-circle">
+                    <figcaption>Meet the Dirvishes</figcaption>
+                </figure>
+
+                <p>Starts at 1pm</p>
+                <p>1 hour experience in Ankara</p>
+        </div>  
+
+
          </article>
 
         <?php include ('footer.php'); ?>

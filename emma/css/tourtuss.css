@@ -214,6 +214,28 @@ article{
 }
 
 
+
+.feedGrid{
+    padding:0em;
+}
+
+.feedColumn{
+    text-align: left;
+}
+
+.feedColumn.description{
+    text-align: left;
+    vertical-align: center;
+}
+
+
+.miniProfile
+{
+        border-radius: 50%;
+        width:90px;
+}
+
+
 .hourlyActivitiesWrapper{
     text-align: center;
     border-bottom-style:solid;
@@ -245,15 +267,22 @@ article{
 
 
 
-.homeReveal {
+.searchLink {
     position:absolute;
-    text-align: left;
-    z-index:2;
+    text-align: rignt;
     right:0.5rem;
     top:0rem;;
-
+    font-size:2rem;
 }
 
+
+.homeReveal {
+    position: absolute;
+    text-align: left;
+    left:0.5rem;
+    top:0rem;;
+    font-size:2rem;
+}
 
 .tourCount {
     font-size: 0.5em;
@@ -284,6 +313,7 @@ article{
     width:300px;
     height:300px;
 }
+
 
 
 /* overriding jqm mobile structure style sheet */

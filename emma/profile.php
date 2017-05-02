@@ -32,7 +32,7 @@
 <p>
                 <i class="fa fa-smile-o fa-2x"></i><span class="tourCount">325</span>
                 <i class="fa fa-meh-o fa-2x"></i><span class="tourCount">116</span>
-                <i class="fa fa-meh-o fa-2x"></i><span class="tourCount">100</span>
+                <i class="fa fa-frown-o fa-2x"></i><span class="tourCount">10</span>
 
 </p>
 <p>
