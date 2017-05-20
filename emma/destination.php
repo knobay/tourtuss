@@ -1,5 +1,5 @@
    
-   <!doctype html>
+<!doctype html>
 
 <html lang="en">
 <?php include ('head.php'); ?>
@@ -20,9 +20,7 @@
 
 
                   <span class="flag-icon flag-icon-squared flag-icon-cl"></span> Santiago 
-                  <div class="homeReveal">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+
                 </a>
                 </h1>
                 
@@ -189,13 +187,7 @@
             <input type="text" class="date-input-inline" data-inline="true" data-role="date">
         </div>
 
-
         </div>
-
-
-
-
-
 
     </div>
 

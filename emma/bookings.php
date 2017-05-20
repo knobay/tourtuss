@@ -21,7 +21,7 @@
             <h2><a href="experience.php">3rd April</a></h2> 
                 <figure>
                     <img src="images/mosque.jpg" class="img-circle">
-                    <figcaption>Mosque Tour</figcaption>
+                    <figcaption>Istanbul by bike</figcaption>
                 </figure>
 
                 <p>Starts at 10am</p>

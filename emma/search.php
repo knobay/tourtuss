@@ -6,27 +6,67 @@
 <body>
 
   
-    <section data-role="page" id="search">
+<!-- pop down panel -->
+
+
+        <section data-role="page" id="destinationTmp">
+
         <header data-role="header" data-position="fixed" data-theme="a">
-            <?php include ('hamburgerMenu.php'); ?>
-            <h1>
-                <i class="fa fa-bell"></i> Search       
-            </h1>
+                <h1>
+                    Search
+                </h1>
+
         </header>
 
-       <article role="main" class="ui-content"  data-theme="a">
+        <article role="main" class="ui-content" data-theme="a">
 
-            <h2>
-                To be completed
-            </h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ipsum itaque sed doloremque quidem eum placeat voluptatum neque est dolores corporis dolore, possimus facere hic earum iste assumenda quas aliquam.
-            </p>
-         </article>
+ 
+        <div id="destinationPanel">
+
+        <div id="popupcitysearch">
+                <div >
+                        <input type="text" id="searchField" placeholder="Type destination">
+                        <ul id="suggestions" data-role="listview" data-inset="true"></ul>
+                </div>
+
+        <div  id="popupDateChange">
+            <input type="text" class="date-input-inline" data-inline="true" data-role="date">
+        </div>
+<h2> People search down here too.  TBC</h2>
+        </div>
+
+    </div>
+
+</article>
 
         <?php include ('footer.php'); ?>
+        <script>
+
+		$("#destination").bind("pageshow", function(e) {
+
+			var autocompleteData = $.parseJSON('[<?php include ('./autocomplete/cities.json'); ?>]');
+
+			$("#searchField").autocomplete({
+				target: $('#suggestions'),
+				source: autocompleteData,
+				callback: function(e) {
+					var $a = $(e.currentTarget);
+					$('#searchField').val( $a.data('autocomplete').value );
+					$("#searchField").autocomplete('clear');
+
+
+				},
+				link: 'target.html?term=',
+				minLength: 1
+			});
+		});
+
+
+	</script>
+
 
     </section>
+
 
 
 </body>
