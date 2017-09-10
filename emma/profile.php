@@ -12,29 +12,29 @@
         </header>
 
        <article role="main" class="ui-content"  data-theme="a">
-
             <div class="ui-body ui-body-a ui-corner-all">
 
-                            <div class="profileSettings" onClick="alert('To be completed - edit settings and profile')"><i class="fa fa-gear"></i></div>
+                            <div class="profileSettings" onclick="alert('To be completed - edit settings and profile')"><i class="fa fa-gear"></i></div>
 
 <p>
   <img src="images/lizzie.png" class="img-circle">
 </p>
 
+<cite>
+                    I'm a music lover and a freestyle skiing freak. Vale Vale Vale!
+</cite>
+    
+ <p>
 
-<p>
-        <a href="notifications.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-bell"></i><span class="profileNotificationsCount">2</span></a>
-        <a href="bookings.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-shopping-basket"></i><span class="profileNotificationsCount">2</span></a>
-        <a href="maybes.php" class="ui-btn ui-btn-inline profileButton"><i class="fa fa-lightbulb-o"></i><span class="profileNotificationsCount">5</span></a>
-</p>           
-
-
-<p>
-                <i class="fa fa-smile-o fa-2x"></i><span class="tourCount">325</span>
+                <a href="#" class="ui-link"><i class="fa fa-snapchat-square  fa-2x" onclick="alert('would open snapchat profile if provided')"></i></a>
+                <a href="#" class="ui-link"><i class="fa fa-twitter fa-2x" onclick="alert('would open twitter profile if provided')"></i></a>
+                <a href="#" class="ui-link"><i class="fa fa-facebook fa-2x" onclick="alert('would open facebook profile if provided')"></i></a>
+                <a href="#" class="ui-link"><i class="fa fa-link fa-2x" onclick="alert('would open personal weblink if provided')"></i></a>
+</p><i class="fa fa-smile-o fa-2x"></i><span class="tourCount">325</span>
                 <i class="fa fa-meh-o fa-2x"></i><span class="tourCount">116</span>
                 <i class="fa fa-frown-o fa-2x"></i><span class="tourCount">10</span>
 
-</p>
+<p></p>
 <p>
 
 
@@ -59,7 +59,7 @@
 </p>
 
 <p>
-<div class="languagesGrid">   
+</p><div class="languagesGrid">   
             <div class="ui-grid-a">
                 <div class="ui-block-a">
                     <div class="languageColumn">Italian</div>
@@ -93,23 +93,55 @@
                 </div>
             </div>
 </div>
-</p>
+<p></p>
+
+    
+
+                
 
 
     
-<cite>
-                    I'm a music lover and a freestyle skiing freak. Vale Vale Vale!
-</cite>
+
     
- <p>
-
-                <a href="#"><i class="fa fa-snapchat-square  fa-2x" onClick="alert('would open snapchat profile if provided')"></i></a>
-                <a href="#"><i class="fa fa-twitter fa-2x" onClick="alert('would open twitter profile if provided')"></i></a>
-                <a href="#"><i class="fa fa-facebook fa-2x" onClick="alert('would open facebook profile if provided')"></i></a>
-                <a href="#"><i class="fa fa-link fa-2x" onClick="alert('would open personal weblink if provided')"></i></a>
-</p>
-
+    
 </div>
+    
+        <div class="ui-body ui-body-a ui-corner-all">
+            <h2><a href="experience.php">3rd April</a></h2> 
+                <figure>
+                    <img src="images/mosque.jpg" class="img-circle">
+                    <figcaption>Mosque Tour</figcaption>
+                </figure>
+
+                <p>Starts at 10am</p>
+                <p>2 hour experience in Istanbul</p>
+        </div>    
+
+     
+        <div class="ui-body ui-body-a ui-corner-all">
+            <h2><a href="experience.php">4th-10th April</a></h2> 
+                <figure>
+                    <img src="images/camel.jpg" class="img-circle">
+                    <figcaption>Camel trekking</figcaption>
+                </figure>
+
+                <p>Starts at 2pm</p>
+                <p>7 day experience in Kayakoy</p>
+        </div>    
+
+
+        <div class="ui-body ui-body-a ui-corner-all">
+            <h2><a href="experience.php">20th April</a></h2> 
+                <figure>
+                    <img src="images/dervish.jpg" class="img-circle">
+                    <figcaption>Meet the Dirvishes</figcaption>
+                </figure>
+
+                <p>Starts at 1pm</p>
+                <p>1 hour experience in Ankara</p>
+        </div>  
+
+
          </article>
 
         <?php include ('footer.php'); ?>
