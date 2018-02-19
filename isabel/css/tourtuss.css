@@ -1,0 +1,357 @@
+body{        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+ 
+
+cite {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 500;
+font-style: italic;
+font-size: 1em;
+}
+
+.deleteCard{
+    position: absolute;
+    right: 10px;
+    font-size: 1.2rem;
+}
+
+.profileSettings{
+    position: absolute;
+    right: 10px;
+    font-size: 2.4rem;
+}
+
+#destinationPanel{
+
+    position: relative;
+    top:0;
+    z-index:4;
+    width:100%;
+}
+
+.disclaimer{
+    text-align: justify;
+    font-size:0.7rem;
+}
+
+.destinationStars{
+    text-align: center;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+
+.homeExperience{
+    white-space: nowrap;
+}
+
+
+footer .fa { font-size: 2.4rem;
+border-style:solid;
+border-width:0px;
+border-color:red;
+
+}
+
+
+.tripper .fa {
+    font-size:1rem;
+}
+
+.tripper .fa-smile-o {
+    font-size:2rem;
+}
+
+.tripper .fa-meh-o {
+    font-size:2rem;
+}
+
+.tripper .fa-frown-o {
+    font-size:2rem;
+}
+
+
+footer [class^="ui-block-"] {
+       text-align: center;
+       padding:0.4em;
+       padding-top:0.5em;
+}
+
+
+.detailsGrid {
+    font-size: 0.7em;
+    text-align: left;
+    width: 200px;
+    margin:0 auto;
+}
+
+.hour{
+
+    margin-top:0.1rem;
+    text-indent: 1em;
+}
+
+figure {
+   margin:0;
+}
+
+figcaption{
+    font-style: italic;
+    font-size:0.8em;
+}
+
+.detailsGrid .ui-block-a {
+    padding-right:5px;
+}
+
+.detailsGrid .ui-block-b {
+    padding-left:5px;
+    padding-bottom: 5px;
+}
+	
+.center {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.profileNotificationsCount{
+    border-radius:50%;
+    width: 20px;
+    height: 20px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: sub;
+    font-size: 12px;
+    }
+
+.profileWarning{
+
+
+    border-radius:50%;
+    background-color: yellow;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin-left: 3px;
+    font-size: 0.7rem;
+    vertical-align: sub;
+    color: black;
+
+    }
+
+
+
+.profileButton {
+ width:1.9rem;
+ font-size:1.5rem;
+ padding:0.9rem;
+ margin-left:0px;   
+  margin-right:0px;   
+}
+
+
+.fa-star{
+
+color:goldenrod;
+}
+
+
+
+header .date{
+   text-align: center; 
+   font-size:x-small;
+   padding-bottom: 0.5em;
+}
+
+.img-circle {
+        border-radius: 50%;
+}
+
+
+.flag-icon  {
+  border-style:solid;
+  border-color:gray;
+  border-width:1px;
+}
+
+article{
+    text-align: center; 
+}
+
+#destination article{
+    text-align: left;
+}
+
+
+.backLink {
+    position:absolute;
+    text-align: left;
+    left:0.5rem;
+    top:0rem;;
+    font-size:2rem;
+}
+
+#book article{
+    text-align: left;
+}
+
+.tourtuss-inverse::after{
+	content: url(../images/tourtussInverse.svg);
+
+}
+
+
+.languagesGrid{
+    padding: .5em;
+}
+
+.languageColumn{
+    text-align: right;
+    padding-right:10px;
+    height:25px;
+}
+
+.languageColumn.score{
+    text-align: left;
+}
+
+
+
+.feedGrid{
+    padding:0em;
+}
+
+.feedColumn{
+    text-align: left;
+}
+
+.feedColumn.description{
+    text-align: left;
+    vertical-align: center;
+}
+
+
+.miniProfile
+{
+        border-radius: 50%;
+        width:90px;
+}
+
+.miniTourtuss
+{
+
+        width:90px;
+}
+
+
+.hourlyActivitiesWrapper{
+    text-align: center;
+    border-bottom-style:solid;
+    border-bottom-color:lightgray;
+    border-bottom-width:1px;
+    margin-top:0.5em;
+}
+
+.hourlyActivitiesWrapper .fa {
+    font-size: 3.2rem;
+    padding-left: 1.0rem;
+    padding-right: 0.4rem;
+    padding-top:1.2rem;
+    padding-bottom:1.0rem
+
+}
+
+.typeCount {
+    color:gray;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+
+.hour  {
+    font-size: 0.6rem;
+    text-align: left;
+}
+
+
+
+.searchLink {
+    position:absolute;
+    text-align: rignt;
+    right:0.5rem;
+    top:0rem;;
+    font-size:2rem;
+}
+
+
+.homeReveal {
+    position: absolute;
+    text-align: left;
+    left:0.5rem;
+    top:0rem;;
+    font-size:2rem;
+}
+
+.tourCount {
+    font-size: 0.5em;
+    margin-left: 0.2em;
+}
+
+
+.hamburgerMenuIcon {
+    position:fixed;
+    text-align: left;
+    z-index:2;
+    left:0.5rem;
+    top:0rem;;
+    font-size: 2rem;
+}
+
+.hamburgerMenuPopup {
+    position:fixed;
+    background-color: lighgray;
+    color: red;
+    list-style: none;
+    text-align: left;
+    z-index:5;
+    left:0.5rem;
+    top:0rem;;
+    font-size: 2rem;
+    display: none;
+    width:300px;
+    height:300px;
+}
+
+
+
+/* overriding jqm mobile structure style sheet */
+.ui-header .ui-title,
+.ui-footer .ui-title {
+	font-size: 1.5em;
+	padding: 0.2em 0;
+    margin: 0 10%;
+}
+
+#destination .ui-content {
+    padding: 0.2em;
+}
+
+.ui-corner-all {
+    margin:0.5rem;
+}
+
+.ui-bar-a {
+    background-color: #22264b;
+}
+
+header.ui-bar-a {
+    background-color:#e8edf2;
+}
+
+ /* end overrides */
